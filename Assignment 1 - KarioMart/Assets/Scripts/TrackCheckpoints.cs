@@ -9,11 +9,6 @@ public class TrackCheckpoints : MonoBehaviour
     private void Awake()
     {
         checkpointsTransform = transform.Find("Checkpoints");
-
-        foreach (Transform checkpoint in transform)
-        {
-            Debug.Log(checkpointsTransform);
-        }
     }
 }
     

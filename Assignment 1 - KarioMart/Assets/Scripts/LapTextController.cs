@@ -9,13 +9,14 @@ public class LapTextController : MonoBehaviour
     public TextMeshProUGUI lapCounter;
     PlayerController playerController;
 
-    /*playerController.FinishedLap()
-
-    private void Start()
+    private void Awake()
     {
-        lapCounter.text = "Laps Completed:" +laps "/3");
+        playerController = GameObject.Find("Player").GetComponent<PlayerController>();
     }
-    */
 
-
+    public void Update()
+    {
+        
+        lapCounter.text = "Laps Completed:" +  playerController.GetLaps().ToString()+"/3";
+    }
 }

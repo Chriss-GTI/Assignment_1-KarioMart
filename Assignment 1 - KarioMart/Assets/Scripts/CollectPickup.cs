@@ -12,7 +12,7 @@ public class CollectPickup : MonoBehaviour
 
     public async void OnTriggerEnter(Collider other)
     {
-        //collectSound.Play();
+        collectSound.Play();
         Debug.Log("Pickup has been collected");
         PlayerController speed = other.GetComponent<PlayerController>();
 
@@ -26,6 +26,9 @@ public class CollectPickup : MonoBehaviour
         await Task.Delay(duration);
         speed.acceleration -= speedIncrease;
 
-        Destroy(gameObject);
+        if (gameObject == null)
+        {
+            Destroy(gameObject);
+        }
     }
 }

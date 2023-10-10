@@ -31,7 +31,7 @@ public class PlayerController : MonoBehaviour
         laps++;
         if(laps >= 3)
         {
-            SceneManager.LoadSceneAsync(1);
+            SceneManager.LoadScene(1);
         }
         else
         {
@@ -62,7 +62,7 @@ public class PlayerController : MonoBehaviour
 
     }
 
-
+    //Created this function to make the car follow the position of the mouse
     private void SetRotationPoint()
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -78,6 +78,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    //I created this side slip to reduce the cars "lag", because it was lagging back while accelerating
     private void SetSideSlip()
     {
         Vector3 direction = transform.position - lastposition;
@@ -87,6 +88,7 @@ public class PlayerController : MonoBehaviour
         sideSlipAmount = movement.x;
     }
 
+    //Creating a function to make the car accelarate when the Mouse button input is used
     private void FixedUpdate()
     {
         float speed = rigidbody.velocity.magnitude / 1000;
@@ -95,6 +97,11 @@ public class PlayerController : MonoBehaviour
         rigidbody.AddRelativeForce(Vector3.forward * accelerationInput);
         transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, turnSpeed * Mathf.Clamp(speed, -1, 1));
         
+    }
+
+    public int GetLaps()
+    {
+        return laps;
     }
 
 }

@@ -12,7 +12,6 @@ public class TimerController : MonoBehaviour
 
     private TimeSpan timePlaying;
     private bool timerGoing;
-
     private float elapsedTime;
 
     private void Start()
