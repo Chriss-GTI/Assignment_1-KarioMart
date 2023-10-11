@@ -1,5 +1,7 @@
 # Assignment_1-KarioMart
 
+Name: Christoffer Persson
+
 How to play the game and how it is supposed to work:
 - The game is supposed to be started from the Main Menu.
 - From the Main Menu you should be able to navigate the game to yuor own needs(example: "play" to play and "how to play" to know how to play).
@@ -18,9 +20,9 @@ My sources:
 https://assetstore.unity.com/packages/2d/textures-materials/nature/terrain-textures-pack-free-139542 
 
 https://www.youtube.com/watch?v=_BHX-8HAF34
+
 https://www.youtube.com/watch?v=CLSiRf_OrBk
+
 https://www.youtube.com/watch?v=JivuXdrIHK0
 
 https://gamedevbeginner.com/async-in-unity/
-
-Name: Christoffer Persson
