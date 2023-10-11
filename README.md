@@ -17,7 +17,7 @@ How to play the game and how it is supposed to work:
 
 My sources:
 
-https://assetstore.unity.com/packages/2d/textures-materials/nature/terrain-textures-pack-free-139542 
+https://assetstore.unity.com/packages/2d/textures-materials/nature/terrain-textures-pack-free-139542 (had to scale down the assets because they were way to big)
 
 https://www.youtube.com/watch?v=_BHX-8HAF34
 
