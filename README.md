@@ -4,7 +4,7 @@ Name: Christoffer Persson
 
 How to play the game and how it is supposed to work:
 - The game is supposed to be started from the Main Menu.
-- From the Main Menu you should be able to navigate the game to yuor own needs(example: "play" to play and "how to play" to know how to play).
+- From the Main Menu you should be able to navigate the game to your own needs(example: "play" to play and "how to play" to know how to play).
 - Use the left mouse button to increase and decrease the Car's speed.
 - Use the right Mouse button to reverse(move backwards).
 - Move the mouse to make the Car turn.
