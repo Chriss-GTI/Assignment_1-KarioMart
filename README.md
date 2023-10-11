@@ -8,7 +8,9 @@ How to play the game and how it is supposed to work:
 - Drive through (green) checkpoints to make powerups spawn.
 - Pick up (yellow)powerups to make the Car faster.
 - After driving through all checkpoints finish your lap by drving through the (blue) Finishline.
-- Rince and repeat 3 times to finish the race
+- Rince and repeat 3 times to finish the race.
+- You can use ESC at anytime during one of the levels to pause the game.
+- The Pause menu consists of a Resume, menu and quit option.
 
 My sources:
 
