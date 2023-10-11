@@ -13,13 +13,8 @@ public class Checkpoints : MonoBehaviour
         if(other.TryGetComponent<PlayerController>(out PlayerController player))
         {
             other.GetComponent<PlayerController>().EnteredCheckpoint(this);
-            Debug.Log("Checkpoint");
         }
 
         Instantiate(Prefab, Spawnpoint.position, Spawnpoint.rotation);
     }
-
-   
-
- 
 }

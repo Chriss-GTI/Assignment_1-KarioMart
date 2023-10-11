@@ -38,7 +38,6 @@ public class PlayerController : MonoBehaviour
             checkpoints.Clear();
         }
     }
-
     public float SideSlipAmount
     {
         get
@@ -47,13 +46,11 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    // Start is called before the first frame update
     void Start()
     {
         rigidbody = GetComponent<Rigidbody>();
     }
 
-    // Update is called once per frame
     void Update()
     {
 

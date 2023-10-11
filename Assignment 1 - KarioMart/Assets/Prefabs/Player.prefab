@@ -122,6 +122,7 @@ MonoBehaviour:
   acceleration: 8000
   turnSpeed: 50
   checkpoints: []
+  laps: 0
   trackCheckpoints: {fileID: 0}
 --- !u!54 &2472310272747698767
 Rigidbody:

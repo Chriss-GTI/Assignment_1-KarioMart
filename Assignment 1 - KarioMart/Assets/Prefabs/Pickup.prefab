@@ -118,6 +118,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4e79a5d2dd5e2a40bb277a1efb90820, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collectSound: {fileID: 0}
+  collectSound: {fileID: 8300000, guid: 7a587bc83d1cb470e828ba6410f90a75, type: 3}
   speedIncrease: 2000
   duration: 2000

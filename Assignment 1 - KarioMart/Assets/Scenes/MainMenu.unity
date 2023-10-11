@@ -2035,13 +2035,13 @@ MonoBehaviour:
     - Drive through (green) checkpoints to make powerups
     spawn.
 
-    - Pick up powerups to make the Car faster.
+    - Pick up (yellow) powerups to make the Car faster.
 
-    - After driving through
-    all checkpoints finish your lap by drving through the (blue) Finishline.
+    - After
+    driving through all checkpoints finish your lap by drving through the (blue)
+    Finishline.
 
-    -
-    Finish 3 laps as fast as possible to complete a race.'
+    - Rince and repeat 3 times to finish the race'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

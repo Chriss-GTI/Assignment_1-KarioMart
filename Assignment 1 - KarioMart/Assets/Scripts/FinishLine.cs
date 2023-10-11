@@ -11,5 +11,4 @@ public class FinishLine : MonoBehaviour
             other.GetComponent<PlayerController>().FinishedLap();
         } 
     }
-
 }

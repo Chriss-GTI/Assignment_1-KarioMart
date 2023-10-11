@@ -5,15 +5,14 @@ using UnityEngine;
 
 public class CollectPickup : MonoBehaviour
 {
-    public AudioSource collectSound;
+    public AudioClip collectSound;
     [SerializeField] public float speedIncrease = 2000f;
     [SerializeField] public int duration = 2;
 
 
     public async void OnTriggerEnter(Collider other)
     {
-        collectSound.Play();
-        Debug.Log("Pickup has been collected");
+        AudioSource.PlayClipAtPoint(collectSound, transform.position, 10);
         PlayerController speed = other.GetComponent<PlayerController>();
 
         speed.acceleration += speedIncrease;
@@ -28,6 +27,7 @@ public class CollectPickup : MonoBehaviour
 
         if (gameObject == null)
         {
+           
             Destroy(gameObject);
         }
     }
